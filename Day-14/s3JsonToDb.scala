@@ -11,8 +11,8 @@ object s3JsonToDb {
       .getOrCreate()
 
     val mysqlUrl = "jdbc:mysql://34.168.64.183:3306/json_s3"
-    val mysqlUser = "smukka"
-    val mysqlPassword = "Shiva9090$"
+    val mysqlUser = "*******"
+    val mysqlPassword = "********"
     val mysqlTable = "people"
     val s3Bucket = "scala-akka-bucket"
     val s3FilePath = "People.jsonl"

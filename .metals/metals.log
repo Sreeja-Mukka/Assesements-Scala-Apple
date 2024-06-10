@@ -3879,3 +3879,1235 @@ WARNING: Unmatched cancel notification for request id 1
 2024.06.09 22:35:27 INFO  Running List(/opt/homebrew/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home/bin/java, -cp, /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.3.2/cli_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0-M26/case-app_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.10/coursier-launcher_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.10/coursier-proxy-setup-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_2.13/0.1.6/publish_2.13-0.1.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.0/jimfs-1.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.13.5.2/jsoniter-scala-core_3-2.13.5.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_3/0.12.0/metaconfig-typesafe-config_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.4/python-native-libs_3-0.2.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_2.13/0.1.29/scala-packager_2.13-0.1.29.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.3/cli_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.13/slf4j-nop-2.0.13.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_2.13/3.9.7/core_2.13-3.9.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.3.2/build-module_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.3.2/config_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.3.2/scala3-graal_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.3.2/specification-level_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0-M26/case-app-annotations_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0-M26/case-app-util_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.0/sourcecode_3-0.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.10/coursier-cache_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.10/coursier-core_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_3/0.12.0/metaconfig-core_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.12.0/scala-collection-compat_3-2.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.22.0/jib-core-0.22.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76/bcpg-jdk18on-1.76.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.3/shared_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.13/1.7.9/core_2.13-1.7.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.13/1.3.16/core_2.13-1.3.16.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.13/1.3.16/ws_2.13-1.3.16.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.3/java-class-name_3-0.1.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.9.5/trees_2.13-4.9.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.1/test-runner_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.10.1/os-lib_3-0.10.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.0/pprint_3-0.9.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.13/1.4.0/scalajs-env-nodejs_2.13-1.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.16.0/scalajs-sbt-test-adapter_2.13-1.16.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.2/zip-input-stream-0.1.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.3.2/options_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.3.2/directives_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.3.2/scala-cli-bsp-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.3.2/test-runner_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.3.2/tasty-lib_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.0/plexus-archiver-4.9.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.5/windows-ansi-0.0.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.10/coursier-util_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.3.0/scala-xml_2.13-2.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_3/0.12.0/metaconfig-pprint_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.3/paiges-core_3-0.4.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.34.0/google-http-client-1.34.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.34.0/google-http-client-apache-v2-1.34.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.18.0/google-auth-library-oauth2-http-0.18.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.1/scala3-compiler_3-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.9.5/common_2.13-4.9.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.1/tools_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/junit-interface/0.13.3/junit-interface-0.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.0/geny_3-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.0/fansi_3-0.5.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.13/1.4.0/scalajs-js-envs_2.13-1.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.0/bloop-config_2.13-2.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.3.2/core_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.1/using_directives-1.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.3.2/build-macros_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.6.6/auto-value-annotations-1.6.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.18.0/google-auth-library-credentials-0.18.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.1/scala3-interfaces-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.15/scalapb-runtime_2.13-0.11.15.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.1/nir_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.1/util_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.13/1.1.1/scalajs-logging_2.13-1.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-rifle_2.13/1.5.17-sc-2/bloop-rifle_2.13-1.5.17-sc-2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.10/coursier-jvm_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.2.3/dependency_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.0/scalajs-env-jsdom-nodejs_2.13-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.15/lenses_2.13-0.11.15.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.13/0.0.11/libdaemon_2.13-0.0.11.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.3_2.13/1.3.1/argonaut-shapeless_6.3_2.13-1.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.10/coursier_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.10/coursier-env_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.8/argonaut_2.13-6.3.8.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.9/shapeless_2.13-2.3.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, /Users/smukka/Desktop/Scala-Asesements-Apple)
 2024.06.09 22:35:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/smukka/Desktop/Scala-Asesements-Apple/.metals/bsp.trace.json or /Users/smukka/Library/Caches/org.scalameta.metals/bsp.trace.json
 2024.06.09 22:35:29 INFO  Connected to Scala CLI server v1.3.2
+2024.06.09 22:35:30 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.09 22:35:33 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-Dz2nWWKLRQymirnlDo0OYw==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-Dz2nWWKLRQymirnlDo0OYw== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.09 22:35:33 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.09 22:35:33 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.09 22:35:35 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-0sERBwl9RtifpIA7p_UhUA==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-0sERBwl9RtifpIA7p_UhUA== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.09 22:35:35 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.09 22:35:42 INFO  time: indexed workspace in 1.95s
+2024.06.09 22:35:42 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.09 22:35:44 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-zjkNuKI4QzazdkJTVOdPIA==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-zjkNuKI4QzazdkJTVOdPIA== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.09 22:35:44 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 1.49s
+2024.06.09 22:35:44 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.09 22:35:53 INFO  Scala CLI started for /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.09 22:35:53 WARN  no build tool detected in workspace '/Users/smukka/Desktop/Scala-Asesements-Apple'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.06.09 22:35:53 WARN  Build server is not auto-connectable.
+2024.06.09 22:35:53 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.09 22:35:54 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-7bXCWN8wRZK7p_bN6hYHig==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-7bXCWN8wRZK7p_bN6hYHig== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.09 22:35:54 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 1.47s
+2024.06.09 22:35:54 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.09 22:36:06 INFO  Shutting down server
+2024.06.09 22:36:06 INFO  shutting down Metals
+2024.06.09 22:36:06 INFO  Shut down connection with build server.
+2024.06.09 22:36:06 INFO  Exiting server
+2024.06.09 22:36:14 INFO  Started: Metals version 1.3.1+63-1a8f4659-SNAPSHOT in folders '/Users/smukka/Desktop/Scala-Asesements-Apple' for client Visual Studio Code 1.89.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2efc26da]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@640f936d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2efc26da]
+2024.06.09 22:36:14 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Jun 09, 2024 10:36:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.06.09 22:36:15 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-13/underscore.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.09 22:36:16 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.06.09 22:36:16 INFO  Running List(/opt/homebrew/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home/bin/java, -cp, /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.3.2/cli_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0-M26/case-app_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.10/coursier-launcher_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.10/coursier-proxy-setup-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_2.13/0.1.6/publish_2.13-0.1.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.0/jimfs-1.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.13.5.2/jsoniter-scala-core_3-2.13.5.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_3/0.12.0/metaconfig-typesafe-config_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.4/python-native-libs_3-0.2.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_2.13/0.1.29/scala-packager_2.13-0.1.29.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.3/cli_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.13/slf4j-nop-2.0.13.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_2.13/3.9.7/core_2.13-3.9.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.3.2/build-module_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.3.2/config_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.3.2/scala3-graal_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.3.2/specification-level_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0-M26/case-app-annotations_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0-M26/case-app-util_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.0/sourcecode_3-0.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.10/coursier-cache_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.10/coursier-core_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_3/0.12.0/metaconfig-core_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.12.0/scala-collection-compat_3-2.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.22.0/jib-core-0.22.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76/bcpg-jdk18on-1.76.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.3/shared_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.13/1.7.9/core_2.13-1.7.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.13/1.3.16/core_2.13-1.3.16.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.13/1.3.16/ws_2.13-1.3.16.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.3/java-class-name_3-0.1.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.9.5/trees_2.13-4.9.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.1/test-runner_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.10.1/os-lib_3-0.10.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.0/pprint_3-0.9.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.13/1.4.0/scalajs-env-nodejs_2.13-1.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.16.0/scalajs-sbt-test-adapter_2.13-1.16.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.2/zip-input-stream-0.1.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.3.2/options_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.3.2/directives_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.3.2/scala-cli-bsp-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.3.2/test-runner_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.3.2/tasty-lib_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.0/plexus-archiver-4.9.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.5/windows-ansi-0.0.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.10/coursier-util_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.3.0/scala-xml_2.13-2.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_3/0.12.0/metaconfig-pprint_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.3/paiges-core_3-0.4.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.34.0/google-http-client-1.34.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.34.0/google-http-client-apache-v2-1.34.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.18.0/google-auth-library-oauth2-http-0.18.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.1/scala3-compiler_3-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.9.5/common_2.13-4.9.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.1/tools_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/junit-interface/0.13.3/junit-interface-0.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.0/geny_3-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.0/fansi_3-0.5.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.13/1.4.0/scalajs-js-envs_2.13-1.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.0/bloop-config_2.13-2.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.3.2/core_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.1/using_directives-1.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.3.2/build-macros_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.6.6/auto-value-annotations-1.6.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.18.0/google-auth-library-credentials-0.18.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.1/scala3-interfaces-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.15/scalapb-runtime_2.13-0.11.15.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.1/nir_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.1/util_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.13/1.1.1/scalajs-logging_2.13-1.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-rifle_2.13/1.5.17-sc-2/bloop-rifle_2.13-1.5.17-sc-2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.10/coursier-jvm_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.2.3/dependency_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.0/scalajs-env-jsdom-nodejs_2.13-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.15/lenses_2.13-0.11.15.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.13/0.0.11/libdaemon_2.13-0.0.11.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.3_2.13/1.3.1/argonaut-shapeless_6.3_2.13-1.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.10/coursier_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.10/coursier-env_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.8/argonaut_2.13-6.3.8.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.9/shapeless_2.13-2.3.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, /Users/smukka/Desktop/Scala-Asesements-Apple)
+2024.06.09 22:36:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/smukka/Desktop/Scala-Asesements-Apple/.metals/bsp.trace.json or /Users/smukka/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.09 22:36:19 INFO  Connected to Scala CLI server v1.3.2
+2024.06.09 22:36:19 INFO  Shutting down server
+2024.06.09 22:36:19 INFO  shutting down Metals
+2024.06.09 22:36:19 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.09 22:36:19 INFO  Shut down connection with build server.
+2024.06.09 22:36:19 INFO  Exiting server
+2024.06.10 09:08:53 INFO  Started: Metals version 1.3.1+63-1a8f4659-SNAPSHOT in folders '/Users/smukka/Desktop/Scala-Asesements-Apple' for client Visual Studio Code 1.89.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2c06cddb]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@7ef6fe1a]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2c06cddb]
+2024.06.10 09:08:53 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Jun 10, 2024 9:08:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 10, 2024 9:08:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.06.10 09:08:54 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-13/underscore.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:54 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-13/underscore.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:55 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:55 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.06.10 09:08:55 INFO  Running List(/opt/homebrew/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home/bin/java, -cp, /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.3.2/cli_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0-M26/case-app_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.10/coursier-launcher_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.10/coursier-proxy-setup-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_2.13/0.1.6/publish_2.13-0.1.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.0/jimfs-1.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.13.5.2/jsoniter-scala-core_3-2.13.5.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.4/libsodiumjni-0.0.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_3/0.12.0/metaconfig-typesafe-config_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.4/python-native-libs_3-0.2.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_2.13/0.1.29/scala-packager_2.13-0.1.29.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.3/cli_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.13/slf4j-nop-2.0.13.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_2.13/3.9.7/core_2.13-3.9.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.3.2/build-module_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.3.2/config_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.3.2/scala3-graal_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.3.2/specification-level_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0-M26/case-app-annotations_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0-M26/case-app-util_3-2.1.0-M26.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.0/sourcecode_3-0.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.10/coursier-cache_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.10/coursier-core_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_3/0.12.0/metaconfig-core_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.12.0/scala-collection-compat_3-2.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.22.0/jib-core-0.22.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76/bcpg-jdk18on-1.76.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.3/shared_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.13/1.7.9/core_2.13-1.7.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.13/1.3.16/core_2.13-1.3.16.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.13/1.3.16/ws_2.13-1.3.16.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.3/java-class-name_3-0.1.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.9.5/trees_2.13-4.9.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.5.1/test-runner_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.10.1/os-lib_3-0.10.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.0/pprint_3-0.9.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.13/1.4.0/scalajs-env-nodejs_2.13-1.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.16.0/scalajs-sbt-test-adapter_2.13-1.16.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.2/zip-input-stream-0.1.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.3.2/options_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.3.2/directives_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.3.2/scala-cli-bsp-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.3.2/test-runner_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.3.2/tasty-lib_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.0/plexus-archiver-4.9.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.5/windows-ansi-0.0.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.10/coursier-util_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.3.0/scala-xml_2.13-2.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_3/0.12.0/metaconfig-pprint_3-0.12.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.3/paiges-core_3-0.4.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.34.0/google-http-client-1.34.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.34.0/google-http-client-apache-v2-1.34.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.18.0/google-auth-library-oauth2-http-0.18.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.1/scala3-compiler_3-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.9.5/common_2.13-4.9.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.5.1/tools_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/junit-interface/0.13.3/junit-interface-0.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.0/geny_3-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.0/fansi_3-0.5.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.13/1.4.0/scalajs-js-envs_2.13-1.4.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.0/bloop-config_2.13-2.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.3.2/core_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.1/using_directives-1.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.3.2/build-macros_3-1.3.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.1/bsp4j-2.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.6.6/auto-value-annotations-1.6.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.18.0/google-auth-library-credentials-0.18.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.1/scala3-interfaces-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.15/scalapb-runtime_2.13-0.11.15.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.5.1/nir_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.5.1/util_3-0.5.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.13/1.1.1/scalajs-logging_2.13-1.1.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-rifle_2.13/1.5.17-sc-2/bloop-rifle_2.13-1.5.17-sc-2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.10/coursier-jvm_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.2.3/dependency_3-0.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.0/scalajs-env-jsdom-nodejs_2.13-1.1.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.15/lenses_2.13-0.11.15.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.13/0.0.11/libdaemon_2.13-0.0.11.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.3_2.13/1.3.1/argonaut-shapeless_6.3_2.13-1.3.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.10/coursier_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.10/coursier-env_2.13-2.1.10.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.8/argonaut_2.13-6.3.8.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.9/shapeless_2.13-2.3.9.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, /Users/smukka/Desktop/Scala-Asesements-Apple)
+2024.06.10 09:08:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/smukka/Desktop/Scala-Asesements-Apple/.metals/bsp.trace.json or /Users/smukka/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.10 09:08:56 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:56 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:57 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:57 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:57 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:57 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:57 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:57 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:57 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:57 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:59 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:59 WARN  no build target for: /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala
+2024.06.10 09:08:59 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:08:59 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:00 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:00 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:01 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:01 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:01 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:02 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:01 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:02 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  Connected to Scala CLI server v1.3.2
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-14/s3JsonToDb.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.10 09:09:03 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.10 09:09:07 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-yPVbX5nnQOq82mLdQtupxA==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-yPVbX5nnQOq82mLdQtupxA== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:07 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 3.68s
+2024.06.10 09:09:07 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.10 09:09:07 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.10 09:09:09 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-T0uI6mOuS1iTVPSIMZ4IgA==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-T0uI6mOuS1iTVPSIMZ4IgA== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:09 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 2.11s
+2024.06.10 09:09:09 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.10 09:09:09 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.10 09:09:10 INFO  time: indexed workspace in 6.71s
+2024.06.10 09:09:09 INFO  Deduplicating compilation of Scala-Asesements-Apple_f4dd477a3a from bsp client 'scala-cli 1.3.2' (since 7.77s)
+2024.06.10 09:09:09 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.10 09:09:11 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-GKh_mjBvQkujLtMOQCZjnQ==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-GKh_mjBvQkujLtMOQCZjnQ== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:11 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-GKh_mjBvQkujLtMOQCZjnQ==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-GKh_mjBvQkujLtMOQCZjnQ== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:11 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 1.11s
+2024.06.10 09:09:11 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.10 09:09:11 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.10 09:09:11 INFO  Scala CLI started for /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:11 WARN  no build tool detected in workspace '/Users/smukka/Desktop/Scala-Asesements-Apple'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.06.10 09:09:11 WARN  Build server is not auto-connectable.
+2024.06.10 09:09:11 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.10 09:09:13 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-Uu9usJMoQhaiYhtBKDYpeA==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-Uu9usJMoQhaiYhtBKDYpeA== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:13 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 1.35s
+2024.06.10 09:09:13 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.10 09:09:13 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.10 09:09:14 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-zGYSFhQuQ0e6546lKSNHbg==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-zGYSFhQuQ0e6546lKSNHbg== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:14 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 1.34s
+2024.06.10 09:09:14 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.10 09:09:22 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+Jun 10, 2024 9:09:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+2024.06.10 09:09:23 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-cdAW1ChrQGyTyHjh8pEejw==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-cdAW1ChrQGyTyHjh8pEejw== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:23 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 1.4s
+2024.06.10 09:09:23 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.10 09:09:23 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.10 09:09:25 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-zPwvUImWRhKHCbngcY2knw==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-zPwvUImWRhKHCbngcY2knw== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:25 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 1.35s
+2024.06.10 09:09:25 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+2024.06.10 09:09:28 INFO  compiling scala-asesements-apple_f4dd477a3a (40 scala sources and 2 java sources)
+2024.06.10 09:09:30 INFO  exception occurred while checkingJava /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Yno-enrich-error-messages.
+
+     while compiling: /Users/smukka/Desktop/Scala-Asesements-Apple/Week3-Proj/RecommendationService/target/scala-2.13/routes/main/controllers/routes.java
+        during phase: typer
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.12
+    compiler version: version 3.4.2
+            settings: -Xsemanticdb true -bootclasspath /Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.2/scala3-library_3-3.4.2.jar:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-YAqcetdBSFCvNIr418yt7Q==:/Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/Scala-Asesements-Apple_f4dd477a3a/classes/classes-empty-Scala-Asesements-Apple_f4dd477a3a:/Users/smukka/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar -d /Users/smukka/Desktop/Scala-Asesements-Apple/.scala-build/.bloop/Scala-Asesements-Apple_f4dd477a3a/bloop-internal-classes/main-YAqcetdBSFCvNIr418yt7Q== -java-output-version 21 -sourceroot /Users/smukka/Desktop/Scala-Asesements-Apple
+2024.06.10 09:09:30 INFO  time: compiled Scala-Asesements-Apple_f4dd477a3a in 1.3s
+2024.06.10 09:09:30 ERROR Unexpected error when compiling Scala-Asesements-Apple_f4dd477a3a: dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of TypeTree is not assigned
+	at dotty.tools.dotc.ast.Trees$Tree.tpe(Trees.scala:74)
+	at dotty.tools.dotc.typer.Checking$.checkAppliedTypesIn(Checking.scala:166)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:15)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1750)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1757)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1754)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1798)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1662)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1664)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1763)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1799)
+	at dotty.tools.dotc.typer.JavaChecks$AppliedTypeChecker$.traverse(JavaChecks.scala:19)
+	at dotty.tools.dotc.typer.JavaChecks$.check(JavaChecks.scala:25)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck$$anonfun$1(TyperPhase.scala:58)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:477)
+	at dotty.tools.dotc.typer.TyperPhase.javaCheck(TyperPhase.scala:59)
+	at dotty.tools.dotc.typer.TyperPhase.$anonfun$6(TyperPhase.scala:108)
+	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:479)
+	at scala.collection.Iterator$$anon$9.hasNext(Iterator.scala:583)
+	at scala.collection.immutable.List.prependedAll(List.scala:155)
+	at scala.collection.immutable.List$.from(List.scala:684)
+	at scala.collection.immutable.List$.from(List.scala:681)
+	at scala.collection.IterableOps$WithFilter.map(Iterable.scala:898)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:109)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:315)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1323)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:337)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:350)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:360)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:69)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:360)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:261)
+	at dotty.tools.dotc.Run.compile(Run.scala:246)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:141)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.NoopTracer$.trace(BraveTracer.scala:53)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)

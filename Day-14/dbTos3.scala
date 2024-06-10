@@ -12,8 +12,8 @@ object dbTos3 {
 
     // Replace these with your MySQL and S3 credentials
     val mysqlUrl = "jdbc:mysql://34.168.64.183:3306/json_s3"
-    val mysqlUser = "smukka"
-    val mysqlPassword = "Shiva9090$"
+    val mysqlUser = "*******"
+    val mysqlPassword = "*******"
     val mysqlTable = "animal"
     val s3Bucket = "scala-akka-bucket"
     val s3OutputPath = s"s3a://$s3Bucket/output1.csv"
