@@ -1,0 +1,9 @@
+Optional Tasks Git Link:
+https://github.com/Sreeja-Mukka/OptionalTasksSpark
+
+Task-1 Git Link:
+https://github.com/Sreeja-Mukka/S3ParquetKeySpace
+
+Task-2 Git Links:
+Akka Producer : https://github.com/Sreeja-Mukka/akka_streaming
+Spark Consumer : https://github.com/Sreeja-Mukka/spark_streaming

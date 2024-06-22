@@ -5693,3 +5693,21 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@37e3755
 2024.06.20 00:58:58 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-18-19/datasets.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.06.20 00:59:09 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-18-19/rdd_agg.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.06.20 00:59:19 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-18-19/rdd.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.20 00:59:51 INFO  Shutting down server
+2024.06.20 00:59:51 INFO  shutting down Metals
+2024.06.20 00:59:51 INFO  Exiting server
+2024.06.22 14:46:22 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/Users/smukka/Desktop/Scala-Asesements-Apple' for client Visual Studio Code 1.89.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@61e17ca8]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@47466b19]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@61e17ca8]
+2024.06.22 14:46:22 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.22 14:46:23 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-18-19/rdd.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.22 14:46:25 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/Day-18-19/rdd.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.22 14:47:46 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/BroadcastingSpark.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.22 14:47:46 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/BroadcastingSpark.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.22 14:47:53 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/BroadcastingSpark.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.22 14:47:59 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/BroadcastingSpark.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.22 14:47:59 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/BroadcastingSpark.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.22 14:48:04 INFO  no build target found for /Users/smukka/Desktop/Scala-Asesements-Apple/BroadcastingSpark.scala. Using presentation compiler with project's scala-library version: 3.3.3
